@@ -53,6 +53,7 @@ padding-right: 8px;
   text-align: center;
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
 .description{
   font-size: 18px;
@@ -87,4 +88,39 @@ padding-right: 8px;
   font-size: 55px;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-head{
+  text-align: center;
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 55px;
+  background-color: black;
+  color: aliceblue;
+}
+.box{
+  width: 210px;
+  height: 240px;
+  box-shadow: 4px 4px 250px white;
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+  color: azure;
+}
+.service-container{
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  background-color: black;
+  
+  justify-content: space-around;
+  height: 500px;
+}
+.head-4{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-btn{
+  background-color: gray;
+  margin-top: 10px;
 }

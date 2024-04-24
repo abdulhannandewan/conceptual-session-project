@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+padding: 0;
+}
+.box{
+padding: 20px;
+  background-color: red;
+  width: 120px;
+  
+}
+.box2{
+  background-color: aqua;
+}
+.box3{
+  background-color: blueviolet;
+.container{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  align-items: center;
+  flex-direction: row-reverse;
+}
